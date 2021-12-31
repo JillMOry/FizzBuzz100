@@ -34,7 +34,7 @@ function fizzBuzz (id) {
 }
 
 app.get('/', (request, response) => {
-    response.send('Hello FizzBuzz!')
+    response.send('Welcome to my FizzBuzz API!  Extend the URL with a number up to 100 to get the list results of FizzBuzz.  ')
 });
 
 app.get('/:id', (request, response) => {
